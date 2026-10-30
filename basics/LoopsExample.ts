@@ -101,7 +101,7 @@
 // }
 
 
-//Switch Statement
+
 //switch statement is used to execute one block of code from multiple conditions.
 
 // let day = 30;
@@ -150,3 +150,6 @@ switch (day) {
         console.log("Invalid day selection");
         break;
 }
+
+
+console.log("Hello Everyone... Good Morning...");
