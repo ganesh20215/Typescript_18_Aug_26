@@ -101,15 +101,15 @@
 
 //print prime number from 1 to 100
 
-for (let no = 2; no <= 100; no++){
-    let primeNumber = true;
-    for (let i = 2; i <no; i++){
-        if (no % i === 0) {
-          primeNumber = false; 
-          break;
-        }
-    }
-    if (primeNumber) {
-        console.log(no);
-    }
-}
+// for (let no = 2; no <= 100; no++){
+//     let primeNumber = true;
+//     for (let i = 2; i <no; i++){
+//         if (no % i === 0) {
+//           primeNumber = false; 
+//           break;
+//         }
+//     }
+//     if (primeNumber) {
+//         console.log(no);
+//     }
+// }
