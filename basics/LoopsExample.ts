@@ -14,6 +14,7 @@
 
 
 //for loop : Used when the number of iterations is known.
+// Simple for loop is very popular loop we have.
 // Initialization executes once (let i : number = 1)
 // Condition checks (i <= 10)
 // Increment/Decrement executes ( i++)
@@ -26,6 +27,8 @@
 
 
 //Nested For Loop
+//Nested For loop represent for rows and columns.
+
 // for (let i : number = 1; i <= 3; i++){
 //         for (let j : number = 1; j <= 3; j++){
 //             console.log(i + "    " + j);
