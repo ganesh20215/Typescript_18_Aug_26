@@ -26,33 +26,33 @@
 //We can't create an object of AC
 //We can call all AC methods using Impletemented class (child class)
 
-abstract class DemoTestCheck {
+// abstract class DemoTestCheck {
 
-    constructor(){
-        console.log("This is an constractor");
-    }
+//     constructor(){
+//         console.log("This is an constractor");
+//     }
 
-    abstract abMethod() : void; //abstract method
+//     abstract abMethod() : void; //abstract method
 
-    sum(){
-        console.log(10 + 20);
-    }
+//     sum(){
+//         console.log(10 + 20);
+//     }
 
-    static add(){
-        console.log(50 + 60);
-    }
-}
+//     static add(){
+//         console.log(50 + 60);
+//     }
+// }
 
 // const d = new DemoTestCheck();
 
-class  Deeptraj extends DemoTestCheck{
+// class  Deeptraj extends DemoTestCheck{
    
-    abMethod() : void{
-        console.log("Abstract classs Method");
-    }
-}
+//     abMethod() : void{
+//         console.log("Abstract classs Method");
+//     }
+// }
 
-const dc = new Deeptraj();
-dc.abMethod();
-dc.sum();
-DemoTestCheck.add();
+// const dc = new Deeptraj();
+// dc.abMethod();
+// dc.sum();
+// DemoTestCheck.add();
